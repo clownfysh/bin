@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+cd
+
+ln -sf ~/bin/.bash_logout
+ln -sf ~/bin/.bash_profile
+ln -sf ~/bin/.bashrc
+ln -sf ~/bin/.emacs
+ln -sf ~/bin/.gitconfig
+ln -sf ~/bin/.screenrc
+ln -sf ~/bin/.vimrc
+
+cd - >/dev/null
