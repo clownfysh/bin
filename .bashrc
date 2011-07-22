@@ -10,27 +10,25 @@ export PS1="(\u@\h \w) "
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 if [ "$UNAME" = "NetBSD" ]; then
-        PATH=$PATH:/usr/pkg/bin
-        PATH=$PATH:/usr/X11R7/bin
+  PATH=$PATH:/usr/pkg/bin
+  PATH=$PATH:/usr/X11R7/bin
 fi
 # export PATH=$PATH:/usr/lib/git-core
 
 export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/local/lib:$LD_LIBRARY_PATH
 export EDITOR=vi
 
-export IH=$HOME/ih
+export XT=$HOME/xt
 if [ "$UNAME" = "Darwin" ]; then
-export IH_C_STANDARD=/opt/local/lib/gcc46/gcc/x86_64-apple-darwin10/4.6.0/include
+  export XTC=/opt/local/lib/gcc46/gcc/x86_64-apple-darwin10/4.6.0/include
 fi
 if [ "$UNAME" = "Linux" ]; then
-export IH_C_STANDARD=/usr/lib/gcc/i486-linux-gnu/4.4/include
+  export XTC=/usr/lib/gcc/i486-linux-gnu/4.4/include
 fi
-export IH_QUIET=yes
-export PATH=$PATH:$IH/bin
-export PATH=$PATH:$IH/bin/user/clownfysh
+export XTQ=1
+export PATH=$PATH:$XT/bin
 
 alias c="clear"
-alias ih="cd $IH"
 alias cmx="c; mx"
 alias cs="stats"
 alias df="df -h"
@@ -62,4 +60,5 @@ alias rmtilde="rm-tilde"
 alias s="screen -h 2048"
 alias u="uptime"
 alias x="exit"
+alias xt="cd $XT"
 alias v="valgrind -v --leak-check=full"
