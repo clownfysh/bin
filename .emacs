@@ -1,8 +1,4 @@
-(setq ih-use-abbrevs nil)
-(if (file-exists-p "~/.emacs_ih") (load "~/.emacs_ih"))
-(if (file-exists-p "~/.emacs_custom") (load "~/.emacs_custom"))
-(if cf-use-abbrevs (load "~/.emacs_ih_abbrevs"))
-
+;;(if cf-use-abbrevs (load "~/.emacs_ih_abbrevs"))
 
 (global-set-key "\C-b" 'electric-buffer-list)
 (global-set-key "\C-f" 'find-file)
