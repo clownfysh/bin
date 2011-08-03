@@ -3,7 +3,7 @@ UNAME=`uname`
 #if [ "$DISPLAY" != "" ]; then
 #    xset b off >/dev/null 2>&1
 #fi
-#setterm -blank 0 >/dev/null 2>&1
+setterm -blank 0 >/dev/null 2>&1
 #setterm -blength 0 2 >/dev/null 2>&1
 
 export PS1="(\u@\h \w) "
