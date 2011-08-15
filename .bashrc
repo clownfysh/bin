@@ -5,6 +5,7 @@ UNAME=`uname`
 #fi
 setterm -blank 0 >/dev/null 2>&1
 #setterm -blength 0 2 >/dev/null 2>&1
+export TERM=xterm
 
 export PS1="(\u@\h \w) "
 
