@@ -5,4 +5,3 @@ TIMESTAMP=`timestamp`
 ARCHIVE=${DIR}_$TIMESTAMP.tgz
 
 tar -czvf $ARCHIVE $DIR
-#freeze $ARCHIVE

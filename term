@@ -1,2 +1,0 @@
-#exec `which xterm` -ls -fg black -bg snow -geometry 80x40 -fn 9x15 -sb -sl 32768 -cr red
-`which xterm` -ls -fg black -bg snow -geometry 80x40 -fn 9x15 -sb -sl 32768 -cr red &
