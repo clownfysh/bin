@@ -14,8 +14,8 @@
 (global-font-lock-mode 0)
 (normal-erase-is-backspace-mode 0)
 (setq cf-use-abbrevs 't)
-(add-hook 'c-mode-common-hook
-          (lambda () (c-toggle-auto-hungry-state 1)))
+;; (add-hook 'c-mode-common-hook
+;;           (lambda () (c-toggle-auto-hungry-state 1)))
 
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
