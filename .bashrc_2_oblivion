@@ -1,3 +1,1 @@
-export IH_INCLUDE_PATHS="-I/usr/pkg/include"
-export IH_LIBRARY_PATHS="-L/usr/pkg/lib"
-export LD_LIBRARY_PATH=/usr/pkg/lib:/usr/local/lib
+export IH=/home/clownfysh/ih
